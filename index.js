@@ -11,4 +11,4 @@ app.use(cors());
 
 app.use('/', restaurantRouter);
 
-app.listen(PORT, '192.168.100.131', ()=>console.log('Listening on port: '+PORT));
+app.listen(PORT, ()=>console.log('Listening on port: '+PORT));
